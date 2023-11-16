@@ -13,27 +13,27 @@
     <header class="header">
       <nav class="header__menu">
         <ul class="header__links-list">
-          <li class="header__links-list-item_no-bullit">
-            <a href="#" class="header__link_active">главная</a>
+          <li class="header__links-list-item header__links-list-item_no-bullit">
+            <a class="header__link header__link_active">главная</a>
           </li>
           <li class="header__links-list-item">
-            <a href="#" class="underlined__item">посмотреть лоты</a>
+            <a class="header__link" href="#">посмотреть лоты</a>
           </li>
           <li class="header__links-list-item">
-            <a href="#" class="underlined__item">об аукционе</a>
+            <a class="header__link" href="#">об аукционе</a>
           </li>
         </ul>
       </nav>
       <a href="#" class="header__logo">
         <img
           src="images/logo-black.svg"
-          alt="header__logo-image"
+          alt="Логотип оно тебе надо"
           class="header__logo-image"
         />
       </a>
       <address class="address">
-        <a href="tel:+99995555555" class="underlined__item">+9 999 555 5555</a
-        ><br /><a href="mailto:info@sobaka.ge" class="underlined__item"
+        <a href="tel:+99995555555" class="address__link">+9 999 555 5555</a
+        ><br /><a href="mailto:info@sobaka.ge" class="address__link"
           >info@sobaka.ge</a
         >
         <p>наб. Принсенграхт 263-265, Амстердам</p>
@@ -43,11 +43,13 @@
       <section class="cover">
         <div class="overlay"></div>
         <h1 class="cover__title">
-          <span>о<span class="letter-spacing-extended">но</span></span>
-          <span class="aligned-text_center">
+          <span class="cover__title-text_left"
+            >о<span class="letter-spacing-extended">но</span></span
+          >
+          <span class="cover__title-text_center">
             те<span class="letter-spacing-extended">бе</span>
           </span>
-          <span class="aligned-text_right">
+          <span class="cover__title-text_right">
             <span class="letter-spacing-extended">н</span>aд<span
               class="no-letter-spacing"
               >о</span
@@ -114,15 +116,13 @@
             </a>
           </li>
         </ul>
-        <a class="lots__look-more-link underlined__item" href="#"
-          >посмотреть больше</a
-        >
+        <a class="lots__look-more-link" href="#">посмотреть больше</a>
       </section>
       <section class="about">
         <div class="about__logo">
           <img
             src="./images/logo-white.svg"
-            alt="about__logo-image"
+            alt="Логотип оно тебе надо"
             class="about__logo-image"
           />
         </div>
@@ -151,22 +151,22 @@
     </main>
     <footer class="footer">
       <address class="address">
-        <a href="tel:+99995555555" class="underlined__item">+9 999 555 5555</a
-        ><br /><a href="mailto:info@sobaka.ge" class="underlined__item"
+        <a href="tel:+99995555555" class="address__link">+9 999 555 5555</a
+        ><br /><a href="mailto:info@sobaka.ge" class="address__link"
           >info@sobaka.ge</a
         >
         <p>наб. Принсенграхт 263-265, Амстердам</p>
       </address>
-      <nav>
+      <nav class="footer__menu">
         <ul class="footer__menu-list">
           <li class="footer__menu-list-item">
-            <a href="#" class="footer__menu-link_active">главная</a>
+            <a class="footer__menu-link footer__menu-link_active">главная</a>
           </li>
-          <li class="footer__links-list-item">
-            <a href="#" class="underlined__item">посмотреть лоты</a>
+          <li class="footer__menu-list-item">
+            <a class="footer__menu-link" href="#">посмотреть лоты</a>
           </li>
-          <li class="footer__links-list-item">
-            <a href="#" class="underlined__item">об аукционе</a>
+          <li class="footer__menu-list-item">
+            <a class="footer__menu-link" href="#">об аукционе</a>
           </li>
         </ul>
       </nav>
@@ -177,16 +177,12 @@
             target="_blank"
             class="footer__social-link"
           >
-            <img
-              src="./images/yt.svg"
-              alt="Youtube"
-              class="footer__social-icon"
-            />
+            <img src="./images/yt.svg" alt="Ютуб" class="footer__social-icon" />
           </a>
         </li>
         <li class="footer__social-list-item">
           <a href="https://vk.com/" target="_blank" class="footer__social-link">
-            <img src="./images/vk.svg" alt="VK" class="footer__social-icon" />
+            <img src="./images/vk.svg" alt="ВК" class="footer__social-icon" />
           </a>
         </li>
         <li class="footer__social-list-item">
@@ -197,7 +193,7 @@
           >
             <img
               src="./images/pinterest.svg"
-              alt="Pinterest"
+              alt="Пинтерест"
               class="footer__social-icon"
             />
           </a>
